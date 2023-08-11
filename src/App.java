@@ -12,10 +12,10 @@ public class App {
         int b= scanner.nextInt();
         int c= scanner.nextInt();
 
-        if (a>b && a>c){
+        if (a>=b && a>=c){
             max = a;
 
-            if (b>c) {
+            if (b>=c) {
                 med = b;
                 min = c;
             } else {
@@ -24,10 +24,10 @@ public class App {
             }
         }
 
-        if (b>a && b>c){
+        if (b>=a && b>=c){
             max = b;
 
-            if (a>c) {
+            if (a>=c) {
                 med = a;
                 min = c;
             }   else {
@@ -36,10 +36,10 @@ public class App {
             }
         }
 
-        if (c>a && c>b){
+        if (c>=a && c>=b){
             max = c;
 
-            if (a>b) {
+            if (a>=b) {
                 med = a;
                 min = b;
             }   else {
